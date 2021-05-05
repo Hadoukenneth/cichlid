@@ -1,11 +1,13 @@
+/*********************************Tag Selectors********************************/
+
 body {
   background-color: #d8e3e7
 }
 hr {
+  background-color: #d8e3e7;
   border-color: #51c4d3;
   border-style: dotted none none;
   border-width: 5px;
-  background-color: #d8e3e7;
   height: 1px;
   width: 5%;
 }
@@ -17,4 +19,68 @@ h2 {
 }
 h3 {
   color: #126e82;
+}
+/********************************Class Selectors*******************************/
+
+.cichlid-summary-table-picture {
+  height: 200px;
+  width: 300px;
+}
+
+.cichlid-table {
+  width: 100%;
+}
+
+.button {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.button:hover {
+  border-color: gold;
+  border-style: solid;
+  border-width: 2px;
+  display:inline;
+}
+
+.header-art {
+
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.header-art-fish {
+  position: absolute;
+}
+
+.header-art-plant {
+  position: absolute;
+}
+
+.title-box {
+  width: 100%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+/**********************************Id Selectors********************************/
+
+#header-art-cobalt-blue-cichlid {
+  bottom: 70%;
+  right: 60%;
+}
+
+#header-art-discus-cichlid {
+  bottom: 60%;
+  right: 80%;
+}
+
+#header-art-electric-yellow-cichlid {
+  bottom: 50%;
+  right: 50%;
+}
+
+#header-art-flower-horn-cichlid {
+  bottom: 30%;
+  right: 85%;
 }
