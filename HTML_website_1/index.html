@@ -7,161 +7,167 @@
     <meta name="author" content="Kenneth Vu">
     <title>Cichlid Aquarium</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../tiger_oscar.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Slab:wght@300&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet">
   </head>
-
-  <body>
+  <body class="body">
     <div class="title-box">
-      <h1>Cichlid Aquarium</h1>
+      <h1 class="title">Cichlid Aquarium</h1>
     </div>
     <div class="header-art">
+      <img class="header-art-electric-yellow-cichlid"
+        src="../images/electric_yellow.png" alt="electric yellow mbuna">
+      <img class="header-art-discus-cichlid"
+        src="../images/discus.png" alt="discus cichlid">
+      <img class="header-art-cobalt-blue-cichlid"
+        src="../images/cobalt.png" alt="cobalt blue mbuna">
+      <img class="header-art-flower-horn-cichlid"
+        src="../images/flower_horn.png" alt="flower horn cichlid">
       <img class="header-art-plant" src="../images/plant_3.png"
         alt="aquatic_plant">
       <img class="header-art-plant"  src="../images/plant_2.png"
         alt="aquatic_plant">
       <img class="header-art-plant"  src="../images/plant_1.png"
         alt="aquatic_plant">
-      <img class="header-art-fish" src="../images/electric_yellow.png"
-        alt="electric yellow mbuna" id="header-art-electric-yellow-cichlid">
-      <img class="header-art-fish" src="../images/discus.png"
-        alt="discus cichlid" id="header-art-discus-cichlid">
-      <img class="header-art-fish" src="../images/cobalt.png"
-        alt="cobalt blue mbuna" id="header-art-cobalt-blue-cichlid">
-      <img class="header-art-fish" src="../images/flower_horn.png"
-        alt="flower horn cichlid" id="header-art-flower-horn-cichlid">
+
     </div>
-    <p>Cichlids are the perfect aquarium fishes for fish owners who want a
-      colorful assortment of dancing fishes. These social and aggressive
-      fishes primarily come from two places around the world,
-      <a href="https://en.wikipedia.org/wiki/Lake_Malawi">Africa's Lake
-      Malawi</a> and the tropical delta of the Amazon River in South America.
-      <em> to their aggressive behaviors, an intermediate-level knowledge of
-        raising fish is recommended for future owners.</em>
-    </p>
+    <div class="summary-box">
+      <p class="content">Cichlids are the perfect aquarium fishes for fish owners
+        who want a colorful assortment of dancing fishes. These social and
+        aggressive fishes primarily come from two places around the world,
+        <a href="https://en.wikipedia.org/wiki/Lake_Malawi">Africa's Lake
+        Malawi</a> and the tropical delta of the Amazon River in South America.
+        <em> Due to their aggressive behaviors, an intermediate-level knowledge of
+          raising fish is recommended for future owners.</em>
+      </p>
+    </div>
     <hr>
     <a href="cichlid_behavior.html"><h3>Cichlid Behavior</h3></a>
-
     <hr>
-    <h3>Cichlid Family</h3>
-    <h2>Lake Malawi Cichlids</h2>
-    <table class="cichlid-table">
-      <thead>
-        <tr>
-          <th>Species</th>
-          <th>Appearance</th>
-          <th>Agressiveness</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Electric Yellow Mbuna (Labidochromis caeruleus)</td>
-          <td>
-            <img src="../images/electric_yellow.jpg"
-            alt="electric yellow mbuna" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Cobalt Blue Mbuna (Maylandia callainos)</td>
-          <td>
-            <img src="../images/cobalt_blue.jpg"
-            alt="cobalt blue mbuna" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Red Zebra Mbuna (Maylandia cichliformes)</td>
-          <td>
-            <img src="../images/red_zebra.jpg"
-            alt="red zebra mbuna" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Golden Mbuna (Melanochromis auratus)</td>
-          <td>
-            <img src="../images/auratus.jpg"
-            alt="auratus mbuna" height="200" width="300">
-          </td>
-          <td>
-            🦈🦈🦈🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Yellow Tail Acei (Pseudotropheus acei)</td>
-          <td>
-            <img src="../images/yellow_tail.jpg"
-            alt="yellow tail acei mbuna" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Maingano Mbuna (Melanochromis maingano)</td>
-          <td>
-              <img src="../images/maingano.jpg"
+    <div class="mbuna-container">
+      <h3>Cichlid Family</h3>
+      <h2>Lake Malawi Mbuna Cichlids</h2>
+      <table class="cichlid-table">
+        <thead>
+          <tr class="table-header">
+            <th>Species</th>
+            <th>Appearance</th>
+            <th>Aggressiveness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Electric Yellow Mbuna (Labidochromis caeruleus)</td>
+            <td class="td-picture">
+              <img src="../images/electric_yellow.jpg"
+              alt="electric yellow mbuna" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Cobalt Blue Mbuna (Maylandia callainos)</td>
+            <td class="td-picture">
+              <img src="../images/cobalt_blue.jpg"
+              alt="cobalt blue mbuna" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Red Zebra Mbuna (Maylandia cichliformes)</td>
+            <td class="td-picture">
+              <img src="../images/red_zebra.jpg"
+              alt="red zebra mbuna" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Golden Mbuna (Melanochromis auratus)</td>
+            <td class="td-picture">
+              <img src="../images/auratus.jpg"
+              alt="auratus mbuna" height="200" width="300">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Yellow Tail Acei (Pseudotropheus acei)</td>
+            <td class="td-picture">
+              <img src="../images/yellow_tail.jpg"
+              alt="yellow tail acei mbuna" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Maingano Mbuna (Melanochromis maingano)</td>
+            <td class="td-picture">
+                <img src="../images/maingano.jpg"
+                alt="firemouth cichlid" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+      </table>
+    </div>
+    <div class="american-container">
+      <h2>American Cichlids</h2>
+      <table class="cichlid-table">
+        <thead>
+          <tr class="table-header">
+            <th>Species</th>
+            <th>Appearance</th>
+            <th>Aggressiveness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Red Oscar (Astronotus ocellatus)</td>
+            <td class="td-picture">
+              <img src="../images/red_oscar.jpg"
+              alt="red oscar cichlid" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Tiger Oscar (Astronotus ocellatus)</td>
+            <td class="td-picture">
+              <img src="../images/tiger_oscar.jpg"
+              alt="tiger oscar ciclid" class="cichlid-summary-table-picture">
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈
+            </td>
+          </tr>
+          <tr>
+            <td>Firemouth Cichlid (Thorichthys meeki)</td>
+            <td class="td-picture">
+              <img src="../images/firemouth.jpg"
               alt="firemouth cichlid" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈
-          </td>
-        </tr>
-      </tbody>
-      <tfoot>
-      </tfoot>
-    </table>
-
-    <h2>Other Cichlids Species</h2>
-    <table class="cichlid-table">
-      <thead>
-        <tr>
-          <th>Species</th>
-          <th>Appearance</th>
-          <th>Agressiveness</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Red Oscar (Astronotus ocellatus)</td>
-          <td>
-            <img src="../images/red_oscar.jpg"
-            alt="red oscar cichlid" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Tiger Oscar (Astronotus ocellatus)</td>
-          <td>
-            <img src="../images/tiger_oscar.jpg"
-            alt="tiger oscar ciclid" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈
-          </td>
-        </tr>
-        <tr>
-          <td>Firemouth Cichlid (Thorichthys meeki)</td>
-          <td>
-            <img src="../images/firemouth.jpg"
-            alt="firemouth cichlid" class="cichlid-summary-table-picture">
-          </td>
-          <td>
-            🦈🦈🦈
-          </td>
-        </tr>
-      </tbody>
-      <tfoot>
-      </tfoot>
-    </table>
+            </td>
+            <td class="td-aggressiveness">
+              🦈🦈🦈
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+      </table>
+    </div>
     <hr>
       <h5 class="button"><a href="contact.html">Contact Me</a></h5>
     <hr>

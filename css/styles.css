@@ -12,15 +12,31 @@ hr {
   width: 5%;
 }
 h1 {
+  font-size: 5rem;
   color: #126e82;
+  font-family: 'Roboto Slab', serif;
 }
 h2 {
   color: #126e82;
+  font-family: 'Roboto Slab', serif;
 }
 h3 {
   color: #126e82;
+  font-family: 'Roboto Slab', serif;
+}
+
+td {
+  width: 25%;
 }
 /********************************Class Selectors*******************************/
+.american-container {
+
+}
+
+.body {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .cichlid-summary-table-picture {
   height: 200px;
@@ -28,7 +44,12 @@ h3 {
 }
 
 .cichlid-table {
+  font-family: 'Zilla Slab', serif;
   width: 100%;
+}
+
+.content {
+  font-family: 'Zilla Slab', serif;
 }
 
 .button {
@@ -44,43 +65,72 @@ h3 {
 }
 
 .header-art {
-
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-.header-art-fish {
-  position: absolute;
+  margin: 0;
+  position: relative;
+  text-align: center;
 }
 
 .header-art-plant {
+  position: static;
+  margin: 0 auto;
+}
+
+.header-art-cobalt-blue-cichlid {
+  bottom:70%;
+  left: 60%;
   position: absolute;
 }
 
-.title-box {
-  width: 100%;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-/**********************************Id Selectors********************************/
-
-#header-art-cobalt-blue-cichlid {
-  bottom: 70%;
-  right: 60%;
-}
-
-#header-art-discus-cichlid {
-  bottom: 60%;
-  right: 80%;
-}
-
-#header-art-electric-yellow-cichlid {
-  bottom: 50%;
-  right: 50%;
-}
-
-#header-art-flower-horn-cichlid {
+.header-art-discus-cichlid {
   bottom: 30%;
-  right: 85%;
+  left: 50%;
+  position: absolute;
+}
+
+.header-art-electric-yellow-cichlid {
+  bottom: 60%;
+  left: 30%;
+  position: absolute;
+}
+
+.header-art-flower-horn-cichlid {
+  bottom: 10%;
+  left: 30%;
+  position: absolute;
+}
+
+.mbuna-container {
+
+}
+
+.section-header{
+  font-family: 'Roboto Slab', serif;
+}
+
+.summary-box {
+  line-height: 1.2rem;
+  margin: 5% 15%;
+}
+
+.table-header {
+  font-family: 'Roboto Slab', serif;
+}
+
+.td-aggressiveness {
+  width: 10%;
+}
+
+.td-picture {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Arvo', serif;
+  line-height: 2em;
+}
+
+.title-box {
+  margin: 10% auto 0 auto;
+  width: 100%;
+  text-align: center;
 }
