@@ -1,5 +1,4 @@
 /*********************************Tag Selectors********************************/
-
 body {
   background-color: #d8e3e7
 }
@@ -8,7 +7,8 @@ hr {
   border-color: #51c4d3;
   border-style: dotted none none;
   border-width: 5px;
-  height: 1px;
+  height: 2px;
+  margin: 3% auto;
   width: 5%;
 }
 h1 {
@@ -21,7 +21,7 @@ h2 {
   font-family: 'Roboto Slab', serif;
 }
 h3 {
-  color: #126e82;
+  color: #d8e3e7;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -57,22 +57,98 @@ td {
   margin-bottom: 0;
 }
 
-.button:hover {
-  border-color: gold;
-  border-style: solid;
-  border-width: 2px;
-  display:inline;
+.button-nav-bar {
+   background: #D8E3E7;
+   background-image: -webkit-linear-gradient(top, #D8E3E7, #51C4D3);
+   background-image: -moz-linear-gradient(top, #D8E3E7, #51C4D3);
+   background-image: -ms-linear-gradient(top, #D8E3E7, #51C4D3);
+   background-image: -o-linear-gradient(top, #D8E3E7, #51C4D3);
+   background-image: -webkit-gradient(to bottom, #D8E3E7, #51C4D3);   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   border-radius: 1rem;
+   font-family: Brush Script MT;
+   font-weight: 100;
+   padding: 1rem;
+   -webkit-box-shadow: 1px 1px 20px 0 #132c33;
+   -moz-box-shadow: 1px 1px 20px 0 #132c33;
+   box-shadow: 1px 1px 20px 0 #132c33;
+   text-shadow: 1px 1px 20px #132c33;
+   border: solid #132C33 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   width: 80%;
+}
+
+.button-nav-bar:hover {
+   border: solid #132c33 1px;
+   background: #51C4D3;
+   background-image: -webkit-linear-gradient(top, #51C4D3, #126E82);
+   background-image: -moz-linear-gradient(top, #51C4D3, #126E82);
+   background-image: -ms-linear-gradient(top, #51C4D3, #126E82);
+   background-image: -o-linear-gradient(top, #51C4D3, #126E82);
+   background-image: -webkit-gradient(to bottom, #51C4D3, #126E82);   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   border-radius: 1rem;
+   text-decoration: none;
+}
+
+.fish-icon {
+  float: left;
+  display: block;
+  margin: auto 1rem;
+  position: absolute;
+  top: 20%;
+  width: 2rem;
+}
+
+.fish-bowl {
+  display: block;
+  float: left;
+  margin: auto 0;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.fish-bowl-box {
+  float: left;
+  margin: auto 0.75rem;
+  height: 4rem;
+  padding: 0;
+  width: 4rem;
+}
+
+.footer {
+  background-color: #51c4d3;
+  color: #d8e3e7;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 100%;
 }
 
 .header-art {
-  margin: 0;
   position: relative;
   text-align: center;
 }
 
-.header-art-plant {
-  position: static;
-  margin: 0 auto;
+.header-art-plant-1 {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+}
+
+.header-art-plant-2 {
+  position: absolute;
+  right: 32%;
+  top: 64%;
+}
+
+.header-art-plant-3 {
+  position: absolute;
+  right: 60%;
+  top: 25%;
 }
 
 .header-art-cobalt-blue-cichlid {
@@ -99,8 +175,43 @@ td {
   position: absolute;
 }
 
+.header-art-rock {
+  position: relative;
+  /*height: 55rem;*/
+  width: 50rem;
+}
+
 .mbuna-container {
 
+}
+
+.nav-bar {
+  display: block;
+  list-style: none;
+  width: 100%;
+}
+
+.nav-bar ul {
+  justify-content: space-between;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-bar li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  width: 33%;
+}
+
+.nav-bar a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar-label {
+  float: left;
 }
 
 .section-header{
@@ -108,7 +219,7 @@ td {
 }
 
 .summary-box {
-  line-height: 1.2rem;
+  line-height: 1.7;
   margin: 5% 15%;
 }
 
@@ -126,7 +237,7 @@ td {
 
 .title {
   font-family: 'Arvo', serif;
-  line-height: 2em;
+  line-height: 2;
 }
 
 .title-box {
